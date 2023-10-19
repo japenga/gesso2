@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    background-color: black;
+    width: 100vw;
+    
+}
+.bar{
+    width: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bar img{
+    width: 200px;
+}
+.bar-direita img{
+    width: 45px;
+    
+
+}
+.bar-direita{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: space-between;
+}
+.content{
+    width: 640px;
+    margin: auto;
+    background-color: #e4e4e4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top:100px;
+    border-radius: 20px;
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+
+}
+.produto img{
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+.footer{
+    background-color: white;
+    padding: 13px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer sub{
+    color: #6f6f6f;
+    margin: 5px 5px;
+}
+.valor-{
+    display: flex;
+    height: 20px;
+   text-transform: uppercase;
+   align-items:center ;
+   
+   
+
+}
+.valor--{
+    margin-right: 3px;
+    color: #333;
+    font-size: 20px;
+}
+.valor{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.promo{
+    background-color: rgb(12, 141, 0);
+    padding: 6px;
+    width: 200px;
+    border-radius: 10px;
+    animation: piscar 2s ease-in-out infinite;
+}
+@keyframes piscar {
+    10% {
+      opacity: 1; /* Começa visível */
+    }
+    50% {
+      opacity: 0; /* Torna-se invisível */
+    }
+    100% {
+      opacity: 1; /* Volta a ser visível */
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+  .barra-data{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .pt1{
+    display: flex;
+  }
+  .data{
+background-color: ;
+  }
+  
+  
